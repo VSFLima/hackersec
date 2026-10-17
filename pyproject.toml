@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hackersec"
+version = "0.1.0"
+description = "Pentest e bug bounty platform: recon com scope enforcement, auditoria de superficie web e gerador de relatorios"
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML>=6.0",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov>=5.0"]
+
+[project.scripts]
+hackersec = "hs.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hs*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = [
+    "network: testes que fazem requisicao real (desativados por padrao)",
+]
