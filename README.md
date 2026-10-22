@@ -13,6 +13,7 @@ CLI em Python que exige um `scope.yaml` assinado, faz recon, audita a superfíci
 ![Testes](https://img.shields.io/badge/testes-10%20arquivos-6E9F18?style=for-the-badge&logo=pytest&logoColor=white)
 ![Status](https://img.shields.io/badge/status-ferramenta-6e5494?style=for-the-badge)
 [![Telegram](https://img.shields.io/badge/Telegram-%40vsf__lima-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vsf_lima)
+![License](https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge)
 
 </div>
 
@@ -151,7 +152,17 @@ A suíte cobre scope, `SafeClient`, engine, headers, secrets, modelos e renderiz
 
 ## 📌 Status
 
-Ferramenta em **v0.1.0**, com 10 arquivos de teste e foco em **scope enforcement**. Repositório privado; não é um scanner de vulnerabilidades completo — é uma base de recon e auditoria para programas autorizados.
+Ferramenta em **v0.1.0**, com 10 arquivos de teste e foco em **scope enforcement**. Repositório público; não é um scanner de vulnerabilidades completo — é uma base de recon e auditoria para programas autorizados.
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Leia o [`CONTRIBUTING.md`](CONTRIBUTING.md). O projeto é open source sob a licença MIT.
+
+Para ferramentas de segurança: use apenas em alvos autorizados e **nunca** envie alvos, cookies, tokens ou achados reais em issues/PRs.
+
+## 📄 Licença
+
+Distribuído sob a licença **MIT**. Veja [`LICENSE`](LICENSE).
 
 ## 🙏 Créditos
 
